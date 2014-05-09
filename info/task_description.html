@@ -1,39 +1,74 @@
 <p>
-    <i>( Describe task in general )</i>
+  <i>The robots Sophia and Nikola are engaged in their favourite pastime, reviewing programs.
+    Sophia is looking at the columns in a spreadsheet program.</i>
 </p>
 
 <p>
-    Sum two passed ints
+    <tt>A B C D ... X Y Z AA AB AC ... AY AZ BA BB ... ZY ZZ AAA AAB ...</tt>
 </p>
 
-<p style="text-align: center;">
-    <img class="for_info_only" title="example" src="{{MEDIA}}example.png" alt="example" width="392px"/>
-    <img class="for_editor_only" title="example" src="{{MEDIA}}example.png" alt="example" width="380px"/>
+<p><i>"This looks like a hexavigesimal base system"</i></p>
+
+<p><i>"A what?," replied Nikola.</i></p>
+
+<p><i>
+  "A base-26 numeral system. You know, like binary (base-2), decimal (base-10)
+  or hexadecimal (base-16). Remember from <a href="/mission/good-radix/">The
+  Good Radix</a>? There are 26 symbols here, so this is a hexavigesimal
+  numeral system!"
+</p>
+
+<p><i>
+  Nikola looks carefully at the list. "I don't think so. If <tt>A</tt> is a 0,
+  what is <tt>AA</tt> doing after the <tt>Z</tt>? I think <tt>A</tt> is 1,
+  and <tt>Z</tt> is 26. So this must be a heptavigesimal numeral system, and
+  the 0 at the start is not shown."
+</i></p>
+
+<p><i>
+  "That can't be right either! If this is a heptavigesimal numeral system, the
+  symbol after the <tt>Z</tt> should be <tt>A0</tt> instead of <tt>AA</tt>.
+  I think it's neither a hexavigesimal nor a heptavigesimal numeral system.
+  It's a <b>spreadshimal</b> numeral system!"
+</i></p>
+
+<p>
+  Your task is to implement the spreadshimal numeral system. Given a number, 
+  return the label on the n<sup>th</sup> column in the spreadsheet.
 </p>
 
 <p><i>( Explain input and output values )</i></p>
 <p>
-    <strong>Input: </strong> Two arguments. Both are int
+    <strong>Input: </strong> One arguments. An integer <em>n</em>.
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Output: </strong> A string. The representation of 
+    <em>n</em><sup>th</sup> spreadshimal in capital letters. If n is zero, 
+    an empty string. If n &lt; 0, the <em>n</em><sup>th</sup> spreadshimal 
+    number appended with a minus symbol ('-').
 </p>
 
 
 
 <div class="for_info_only">
-    <p><i>( Put some usage examples )</i></p>
     <p>
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio(3, 2) == 5
-checkio(5, 7) == 12
+checkio(1) == 'A'
+checkio(2) == 'B'
+checkio(26) == 'Z'
+checkio(27) == 'AA'
+checkio(53) == 'BA'
+checkio(1000) == 'ALL'
+checkio(0) == ''
+checkio(-1000) == '-ALL'
     </pre>
 </div>
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    <i>(Here you can explain how it can be used in development and what is usage of this.)</i>
+    <i>spreadshimal numbers are used in columns of spreadsheets, and may
+      teach you about non-standard numeral systems.</i>
 </p>
