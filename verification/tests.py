@@ -11,26 +11,91 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": 1,
+            "answer": 'A',
+            "explanation": ""
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": 2,
+            "answer": 'B',
+            "explanation": ""
+        },
+        {
+            "input": 26,
+            "answer": 'Z',
+            "explanation": ""
+        },
+        {
+            "input": 27,
+            "answer": 'AA',
+            "explanation": ""
         }
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": 52,
+            "answer": 'AZ',
+            "explanation": ""
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
-        }
+            "input": 53,
+            "answer": 'BA',
+            "explanation": ""
+        },
+        {
+            "input": 702,
+            "answer": 'ZZ',
+            "explanation": ""
+        },
+        {
+            "input": 703,
+            "answer": 'AAA',
+            "explanation": ""
+        },
+        {
+            "input": 1000,
+            "answer": 'ALL',
+            "explanation": ""
+        },
+        {
+            "input": 18278,
+            "answer": 'ZZZ',
+            "explanation": ""
+        },
+        {
+            "input": 18279,
+            "answer": 'AAAA',
+            "explanation": ""
+        },
+        {
+            "input": 0,
+            "answer": '',
+            "explanation": ""
+        },
+        {
+            "input": -1,
+            "answer": '-A',
+            "explanation": ""
+        },
+        {
+            "input": -26,
+            "answer": '-Z',
+            "explanation": ""
+        },
+        {
+            "input": -27,
+            "answer": '-AA',
+            "explanation": ""
+        },
+        {
+            "input": -702,
+            "answer": '-ZZ',
+            "explanation": ""
+        },
+        {
+            "input": -1000,
+            "answer": '-ALL',
+            "explanation": ""
+        },
     ]
 }
