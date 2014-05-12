@@ -63,39 +63,14 @@ TESTS = {
             "explanation": ""
         },
         {
-            "input": 18279,
-            "answer": 'AAAA',
-            "explanation": ""
-        },
-        {
             "input": 0,
             "answer": '',
             "explanation": ""
         },
         {
-            "input": -1,
-            "answer": '-A',
+            "input": 1024143629,
+            "answer": 'CHECKIO',
             "explanation": ""
-        },
-        {
-            "input": -26,
-            "answer": '-Z',
-            "explanation": ""
-        },
-        {
-            "input": -27,
-            "answer": '-AA',
-            "explanation": ""
-        },
-        {
-            "input": -702,
-            "answer": '-ZZ',
-            "explanation": ""
-        },
-        {
-            "input": -1000,
-            "answer": '-ALL',
-            "explanation": ""
-        },
+        }
     ]
 }
